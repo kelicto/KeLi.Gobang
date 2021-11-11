@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KeLi.Gobang.App.Models
+namespace KeLi.Gobang.Models
 {
     public class GameOverEventArgs : EventArgs
     {

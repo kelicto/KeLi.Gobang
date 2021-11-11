@@ -1,5 +1,5 @@
 ﻿
-namespace KeLi.Gobang.App.Forms
+namespace KeLi.Gobang.Forms
 {
     partial class TestForm
     {

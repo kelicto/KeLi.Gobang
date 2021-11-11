@@ -1,4 +1,4 @@
-﻿namespace KeLi.Gobang.App.Models
+﻿namespace KeLi.Gobang.Models
 {
     public enum SituationType
     {

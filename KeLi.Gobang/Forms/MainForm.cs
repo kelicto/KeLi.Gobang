@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using KeLi.Gobang.App.Models;
+using KeLi.Gobang.Models;
 
-namespace KeLi.Gobang.App.Forms
+namespace KeLi.Gobang.Forms
 {
     public partial class MainForm : Form
     {

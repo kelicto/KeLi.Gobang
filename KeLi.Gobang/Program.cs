@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using KeLi.Gobang.App.Forms;
+using KeLi.Gobang.Forms;
 
-namespace KeLi.Gobang.App
+namespace KeLi.Gobang
 {
     internal static class Program
     {

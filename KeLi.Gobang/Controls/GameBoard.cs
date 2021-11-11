@@ -3,10 +3,10 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-using KeLi.Gobang.App.Models;
-using KeLi.Gobang.App.Properties;
+using KeLi.Gobang.Models;
+using KeLi.Gobang.Properties;
 
-namespace KeLi.Gobang.App.Controls
+namespace KeLi.Gobang.Controls
 {
     public class GameBoard : Panel
     {

@@ -1,5 +1,8 @@
 ﻿
-namespace KeLi.Gobang.App.Forms
+using KeLi.Gobang.Controls;
+using KeLi.Gobang.Models;
+
+namespace KeLi.Gobang.Forms
 {
     partial class MainForm
     {
@@ -30,7 +33,7 @@ namespace KeLi.Gobang.App.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.gameGobang = new KeLi.Gobang.App.Controls.GameBoard();
+            this.gameGobang = new GameBoard();
             this.pnlOperation = new System.Windows.Forms.Panel();
             this.btnQuit = new System.Windows.Forms.Button();
             this.btnRestart = new System.Windows.Forms.Button();
@@ -48,7 +51,7 @@ namespace KeLi.Gobang.App.Forms
             this.gameGobang.Name = "gameGobang";
             this.gameGobang.Size = new System.Drawing.Size(520, 520);
             this.gameGobang.TabIndex = 0;
-            this.gameGobang.OnGameOver += new System.EventHandler<KeLi.Gobang.App.Models.GameOverEventArgs>(this.GameGobang_OnGameOver);
+            this.gameGobang.OnGameOver += new System.EventHandler<GameOverEventArgs>(this.GameGobang_OnGameOver);
             // 
             // pnlOperation
             // 
